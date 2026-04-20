@@ -148,23 +148,18 @@ data/
 │── Query List VSM.txt        # Input queries
 │── Stopword-List.txt         # Stopword list
 
-preprocessing/
-│── pre_processor.py          # Text preprocessing
 
-indexing/
-│── indexer.py                # TF, DF, positional index
+pre_processor.py          # Text preprocessing
 
-weighting/
-│── tfidf.py                  # TF, IDF, TF-IDF, normalization
+indexer.py                # TF, DF, positional index
 
-retrieval/
-│── vsm_model.py              # Query vector + ranking
+tfidf.py                  # TF, IDF, TF-IDF, normalization
 
-query/
-│── query_processor.py        # Query pipeline
+vsm_model.py              # Query vector + ranking
 
-utils/
-│── file_handler.py           # File and JSON handling
+query_processor.py        # Query pipeline
+
+file_handler.py           # File and JSON handling
 
 gui.py                        # Tkinter GUI
 main.py                       # Entry point
